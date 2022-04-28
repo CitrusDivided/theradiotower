@@ -6,16 +6,32 @@
     grid-row-gap: 5px;
     }
     
-    .div1 { grid-area: 1 / 3 / 2 / 4;
+    .div1 {
+        grid-area: 1 / 3 / 2 / 4;
         width: 100%;
-        border: 1px dotted rgba(167, 56, 56, 0.534);
+        border: 1px dotted rgba(167, 56, 56, 0.137);
         }
-    .div2 { grid-area: 2 / 2 / 3 / 5; }
-    .div3 { grid-area: 3 / 2 / 5 / 3; }
-    .div4 { grid-area: 3 / 4 / 5 / 5; }
-    .div5 { grid-area: 3 / 3 / 5 / 4; }
+    .div2 {
+        grid-area: 2 / 2 / 3 / 5;
+        background: rgba(128, 128, 128, 0.116);
+         }
+    .div3 {
+        grid-area: 3 / 2 / 5 / 3;
+        background: rgba(77, 14, 14, 0.281);
+         }
+    .div4 {
+        grid-area: 3 / 4 / 5 / 5;
+        background: rgba(255, 255, 255, 0.199);
+         }
+    .div5 {
+        grid-area: 3 / 3 / 5 / 4;
+        background: gray;
+         }
 #imgLogo{
     border: 1px solid rgba(0, 0, 0, 0.171);
+}
+h1{
+    font-size: x-small;
 }
 body{
     color: white;
