@@ -26,7 +26,6 @@
         
          }
     nav{
-        border: 1px solid white;
         height: 100%;
          }
     h2 {
@@ -48,7 +47,7 @@
         overflow: hidden;
         background-color: rgba(59, 24, 24, 0.603);
          }
-    li{
+    li {
         float: left;
          }
     li a {
@@ -58,13 +57,16 @@
         text-decoration: none;
         padding: 14px 16px;
          }
-    li a:hover{
+    li a:hover {
         background-color: beige;
          }
     .div3 {
         grid-area: 3 / 2 / 4 / 5;
         height: 100%;
         background: rgba(179, 19, 19, 0.281);
+         }
+    h3 {
+        background: black;
          }
     .div4 {
         grid-area: 3 / 1 / 4 / 2;
@@ -93,7 +95,9 @@
         background: rgba(245, 245, 245, 0.164);
          }
 .globalYoink{
-    margin-top: -11.8rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    margin-top: -11rem;
 }
 body{
     color: white;
