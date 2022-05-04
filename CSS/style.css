@@ -94,8 +94,8 @@
         background: rgb(128, 38, 53);
         height: 100%;
          }
-    .div9 { grid-area: 6 / 1 / 6 / 6;
-        background: rgba(245, 245, 245, 0.164);
+    .div9 { grid-area: 9 / 1 / 6 / 6;
+        background: rgb(111, 73, 155);
          }
 .globalYoink{
     padding: 1rem;
@@ -104,7 +104,7 @@
     border-radius: 0.3rem;
 }
 body{
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Oswald', sans-serif;
     color: white;
     background: linear-gradient(rgb(7, 13, 22), rgb(0, 0, 0));
 }
