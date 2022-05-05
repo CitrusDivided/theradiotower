@@ -67,6 +67,8 @@
         background: rgb(27, 4, 4);
          }
     h3 {
+        font-size: larger;
+        font-weight: 300;
         background: rgb(85, 21, 21);
         border-radius: 0.2rem;
         padding: 1rem;
@@ -104,6 +106,7 @@
     border-radius: 0.3rem;
 }
 body{
+    font-weight: 300;
     font-family: 'Oswald', sans-serif;
     color: white;
     background: linear-gradient(rgb(7, 13, 22), rgb(0, 0, 0));
