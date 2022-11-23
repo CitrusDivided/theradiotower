@@ -138,3 +138,6 @@ body{
     color: white;
     background: linear-gradient(rgb(251, 255, 192), rgb(255, 233, 233));
 }
+html{
+    scroll-behavior: smooth;
+}
